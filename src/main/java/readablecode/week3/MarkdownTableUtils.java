@@ -17,7 +17,7 @@ public class MarkdownTableUtils {
 	// https://cyzennt.co.jp/blog/2021/05/19/java%EF%BC%9A%E5%BC%95%E6%95%B0%E3%81%A7%E6%B8%A1%E3%81%97%E3%81%9F%E5%8F%82%E7%85%A7%E5%9E%8B%E5%A4%89%E6%95%B0%E3%82%92%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89%E5%86%85%E3%81%A7%E5%A4%89%E6%9B%B4/
 
 	// TODO1 add @throws in javadoc
-	// e.g @throws xxxException if xxx is null or is less than XXX
+	// e.g @throws IllegalArgumentException if headerRowCaptions is null or is less than 0
 	/**
 	 * Returns the string of table which has empty rows as Markdown table syntax.
 	 * length of captions for separator cell and empty cell is same with their
